@@ -1,0 +1,156 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Plus Jakarta Sans,sans-serif;
+}
+.display-4 span{
+  color: linear-gradient(300deg, rgb(27, 238, 199),rgb(9, 240, 190));
+}
+.container{
+  margin: 10px;
+  width: 100%;
+  padding: 0;
+}
+.row{
+  margin-right: 50px;
+  padding: 10px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content {
+  margin-bottom: 20px; /* You can adjust this value to control the spacing */
+}
+
+.gradient-text {
+  font-size: 48px;
+  background: linear-gradient(45deg, #00bbff, #09db13);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.icon-square {
+  width: 120px;
+  height: 120px;
+  border-radius: 0.75rem;
+}
+
+div .gap{
+  margin-top: 75px;
+}
+
+.title{
+  width: 100%;
+}
+
+.card{
+  display: inline-block;
+  background-color: rgb(144, 202, 213);
+}
+
+.content .btn-lg {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.content .btn-lg:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cn{
+  margin-left: 100px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.text-dark{
+  margin-top: 20px;
+  
+}
+.box {
+  
+  width: 110%;
+  height: 50px;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+}
+.icon-container{
+  margin-left: 5px;
+
+}
+
+.what-we-do-heading{
+  color: white;
+}
+
+.animate-slide-up {
+  animation: slideUp 1.5s ease forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRightToLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to each Col with different animation delays */
+.col-animation-1 {
+  animation: slideLeftToRight 1s ease forwards;
+  animation-delay: 0.2s;
+}
+
+.col-animation-2 {
+  animation: slideLeftToRight 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.col-animation-3 {
+  animation: slideLeftToRight 1s ease forwards;
+  animation-delay: 0.6s;
+}
+
+.contact-us-bg{
+  background-color: lavender;
+}
+
+.con-us{
+  width: 100%;
+}
